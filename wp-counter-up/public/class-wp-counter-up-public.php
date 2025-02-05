@@ -233,9 +233,20 @@ class Wp_Counter_Up_Public {
     public function lgx_milestone_output_function_dep($params) {
 
         $cats       = trim($params['cat'] );
+        
 
-        $text_color     = $params['text_color'];
-        $number_color   = $params['number_color'];
+        //$text_color     = $params['text_color'];
+
+        $text_color = isset($params['text_color']) ? sanitize_text_field($params['text_color']) : '';
+        $text_color = esc_attr($text_color);
+
+
+        //$number_color   = $params['number_color'];
+        
+        $number_color   = isset($params['number_color']) ? sanitize_text_field($params['number_color']) : '';
+        $number_color   = esc_attr($number_color);
+
+       //die($text_color);   
         $custom_class   = esc_html($params['custom_class']);
         $row_item       = intval($params['row_item']);
 

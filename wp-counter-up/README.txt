@@ -3,8 +3,8 @@ Contributors: LogicHunt, themearth, vaskarjewel
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=vaspal%2ekt%40gmail%2ecom&lc=US&item_name=LogicHunt&item_number=wp&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donate_LG%2egif%3aNonHosted
 Tags: number counter, counter, animated numbers, animated number counter, counter up, counter number, milestone, milestone counter, stats counter, product counter, followers counter, countup, animated counter, wordpress number counter
 Requires at least: 5.5
-Tested up to: 6.5.2
-Stable tag: 2.4.0
+Tested up to: 6.7.1
+Stable tag: 3.0.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -128,6 +128,10 @@ It's very simple. Items can be sorted by Drag & Drop, Title, Date, or Randomly. 
 
 
 == Changelog ==
+
+= 3.0.0 =
+* Security Vulnerability Resolved.
+* Check Latest Compatibility.
 
 = 2.4.0 =
 * Updated Plugin Securities. 
