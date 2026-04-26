@@ -13,20 +13,20 @@ $this->meta_form->buy_pro(
 
 $this->meta_form->select(
     array(
-        'label'     => __( 'Item  Style', $this->plugin_name ),
-        'desc'      => __( 'Select style effect for showcase item', $this->plugin_name ),
+        'label'     => __( 'Item  Style', 'wp-counter-up' ),
+        'desc'      => __( 'Select style effect for showcase item', 'wp-counter-up' ),
         'name'      => 'post_meta_lgx_counter_generator[lgx_item_hover_effect]',
         'id'        => 'lgx_item_hover_effect',
         'status'  => LGX_WCU_PLUGIN_META_FIELD_PRO,
         'default'   => 'none',
         'options'   => array(
-            'none' => __( 'None', $this->plugin_name ),
-            'gray_hover' => __( 'Grayscale On Hover', $this->plugin_name ),
-            'gray_remove' => __( 'Grayscale Remove On Hover', $this->plugin_name ),
-            'gray_always' => __( 'Grayscale Always', $this->plugin_name ),
-            'box_shadow' => __( 'Hover Box Shadow', $this->plugin_name ),
-            'box_shadow_always' => __( 'Box Shadow Always', $this->plugin_name ),
-            'box_shadow_always2' => __( 'Box Shadow Always 2', $this->plugin_name )
+            'none' => __( 'None', 'wp-counter-up' ),
+            'gray_hover' => __( 'Grayscale On Hover', 'wp-counter-up' ),
+            'gray_remove' => __( 'Grayscale Remove On Hover', 'wp-counter-up' ),
+            'gray_always' => __( 'Grayscale Always', 'wp-counter-up' ),
+            'box_shadow' => __( 'Hover Box Shadow', 'wp-counter-up' ),
+            'box_shadow_always' => __( 'Box Shadow Always', 'wp-counter-up' ),
+            'box_shadow_always2' => __( 'Box Shadow Always 2', 'wp-counter-up' )
         )
     )
 );
@@ -34,87 +34,87 @@ $this->meta_form->select(
 
 $this->meta_form->select(
     array(
-        'label'     => __( 'Hover Animation', $this->plugin_name ),
-        'desc'      => __( 'Select hover animation for showcase logo image.', $this->plugin_name ),
+        'label'     => __( 'Hover Animation', 'wp-counter-up' ),
+        'desc'      => __( 'Select hover animation for showcase logo image.', 'wp-counter-up' ),
         'name'      => 'post_meta_lgx_counter_generator[lgx_item_hover_anim]',
         'status'    => LGX_WCU_PLUGIN_META_FIELD_PRO,
         'id'        => 'lgx_item_hover_anim',
         'default'   => 'default',
         'options'   => array(
-            'default'       => __( 'Default', $this->plugin_name ),
-            'none'          => __( 'None', $this->plugin_name ),
-            'scaleup'       => __( 'Scale Up', $this->plugin_name ),
-            'bounce'        => __( 'Bounce', $this->plugin_name ),
-            'flash'         => __( 'Flash', $this->plugin_name ),
-            'pulse'         => __( 'Pulse', $this->plugin_name ),
-            'rubberBand'    => __( 'Rubber Band', $this->plugin_name ),
-            'shakeX'        => __( 'ShakeX', $this->plugin_name ),
-            'shakeY'        => __( 'ShakeY', $this->plugin_name ),
-            'headShake'     => __( 'Head Shake', $this->plugin_name ),
-            'swing'         => __( 'Swing', $this->plugin_name ),
-            'tada'          => __( 'Tada', $this->plugin_name ),
-            'wobble'        => __( 'Wobble', $this->plugin_name ),
-            'jello'         => __( 'Jello', $this->plugin_name ),
-            'heartBeat'     => __( 'Heart Beat', $this->plugin_name ),
-            'backInDown'    => __( 'Back In Down', $this->plugin_name ),
-            'backInLeft'    => __( 'Back In Left', $this->plugin_name ),
-            'backInRight'   => __( 'Back In Right', $this->plugin_name ),
-            'backInUp'      => __( 'Back In Up ', $this->plugin_name ),
-            'bounceIn'      => __( 'Bounce In ', $this->plugin_name ),
-            'bounceInDown'  => __( 'Bounce In Down ', $this->plugin_name ),
-            'bounceInLeft'  => __( 'Bounce In Left ', $this->plugin_name ),
-            'bounceInRight' => __( 'Bounce In Right ', $this->plugin_name ),
-            'bounceInUp'    => __( 'Bounce In Up ', $this->plugin_name ),
-            'fadeIn'        => __( 'Fade In ', $this->plugin_name ),
-            'fadeInDown'    => __( 'Fade In Down ', $this->plugin_name ),
-            'fadeInDownBig' => __( 'Fade In Down Big ', $this->plugin_name ),
-            'fadeInLeft'    => __( 'Fade In Left ', $this->plugin_name ),
-            'fadeInLeftBig' => __( 'Fade In Left Big ', $this->plugin_name ),
-            'fadeInRight'   => __( 'Fade In Right ', $this->plugin_name ),
-            'fadeInRightBig'=> __( 'Fade In Right Big ', $this->plugin_name ),
-            'fadeInUp'      => __( 'Fade In Up ', $this->plugin_name ),
-            'fadeInUpBig'   => __( 'Fade In Up Big ', $this->plugin_name ),
-            'fadeInTopLeft' => __( 'Fade In Top Left ', $this->plugin_name ),
-            'fadeInTopRight'=> __( 'Fade In Top Right ', $this->plugin_name ),
-            'fadeInBottomLeft'  => __( 'Fade In Bottom Left ', $this->plugin_name ),
-            'fadeInBottomRight' => __( 'Fade In Bottom Right ', $this->plugin_name ),
-            'flip'              => __( 'Flip', $this->plugin_name ),
-            'flipInX'           => __( 'Flip InX', $this->plugin_name ),
-            'lightSpeedInRight' => __( 'Light Speed In Right', $this->plugin_name ),
-            'lightSpeedInLeft'  => __( 'Light Speed In Left', $this->plugin_name ),
-            'rotateIn'          => __( 'Rotate In', $this->plugin_name ),
-            'rotateInDownLeft'  => __( 'Rotate In Down Left', $this->plugin_name ),
-            'rotateInDownRight' => __( 'Rotate In Down Right', $this->plugin_name ),
-            'rotateInUpLeft'    => __( 'Rotate In Up Left', $this->plugin_name ),
-            'rotateInUpRight'   => __( 'Rotate In Up Right', $this->plugin_name ),
-            'hinge'             => __( 'Hinge', $this->plugin_name ),
-            'jackInTheBox'      => __( 'Jack In TheBox', $this->plugin_name ),
-            'rollIn'            => __( 'Roll In', $this->plugin_name ),
-            'zoomIn'            => __( 'Zoom In', $this->plugin_name ),
-            'zoomInDown'        => __( 'Zoom In Down', $this->plugin_name ),
-            'zoomInLeft'        => __( 'Zoom In Left', $this->plugin_name ),
-            'zoomInRight'       => __( 'Zoom In Right', $this->plugin_name ),
-            'zoomInUp'          => __( 'Zoom In Up', $this->plugin_name ),
-            'slideInDown'       => __( 'Slide In Down', $this->plugin_name ),
-            'slideInLeft'       => __( 'Slide In Left', $this->plugin_name ),
-            'slideInRight'      => __( 'Slide In Right', $this->plugin_name ),
-            'slideInUp'         => __( 'Slide In Up', $this->plugin_name ),
+            'default'       => __( 'Default', 'wp-counter-up' ),
+            'none'          => __( 'None', 'wp-counter-up' ),
+            'scaleup'       => __( 'Scale Up', 'wp-counter-up' ),
+            'bounce'        => __( 'Bounce', 'wp-counter-up' ),
+            'flash'         => __( 'Flash', 'wp-counter-up' ),
+            'pulse'         => __( 'Pulse', 'wp-counter-up' ),
+            'rubberBand'    => __( 'Rubber Band', 'wp-counter-up' ),
+            'shakeX'        => __( 'ShakeX', 'wp-counter-up' ),
+            'shakeY'        => __( 'ShakeY', 'wp-counter-up' ),
+            'headShake'     => __( 'Head Shake', 'wp-counter-up' ),
+            'swing'         => __( 'Swing', 'wp-counter-up' ),
+            'tada'          => __( 'Tada', 'wp-counter-up' ),
+            'wobble'        => __( 'Wobble', 'wp-counter-up' ),
+            'jello'         => __( 'Jello', 'wp-counter-up' ),
+            'heartBeat'     => __( 'Heart Beat', 'wp-counter-up' ),
+            'backInDown'    => __( 'Back In Down', 'wp-counter-up' ),
+            'backInLeft'    => __( 'Back In Left', 'wp-counter-up' ),
+            'backInRight'   => __( 'Back In Right', 'wp-counter-up' ),
+            'backInUp'      => __( 'Back In Up ', 'wp-counter-up' ),
+            'bounceIn'      => __( 'Bounce In ', 'wp-counter-up' ),
+            'bounceInDown'  => __( 'Bounce In Down ', 'wp-counter-up' ),
+            'bounceInLeft'  => __( 'Bounce In Left ', 'wp-counter-up' ),
+            'bounceInRight' => __( 'Bounce In Right ', 'wp-counter-up' ),
+            'bounceInUp'    => __( 'Bounce In Up ', 'wp-counter-up' ),
+            'fadeIn'        => __( 'Fade In ', 'wp-counter-up' ),
+            'fadeInDown'    => __( 'Fade In Down ', 'wp-counter-up' ),
+            'fadeInDownBig' => __( 'Fade In Down Big ', 'wp-counter-up' ),
+            'fadeInLeft'    => __( 'Fade In Left ', 'wp-counter-up' ),
+            'fadeInLeftBig' => __( 'Fade In Left Big ', 'wp-counter-up' ),
+            'fadeInRight'   => __( 'Fade In Right ', 'wp-counter-up' ),
+            'fadeInRightBig'=> __( 'Fade In Right Big ', 'wp-counter-up' ),
+            'fadeInUp'      => __( 'Fade In Up ', 'wp-counter-up' ),
+            'fadeInUpBig'   => __( 'Fade In Up Big ', 'wp-counter-up' ),
+            'fadeInTopLeft' => __( 'Fade In Top Left ', 'wp-counter-up' ),
+            'fadeInTopRight'=> __( 'Fade In Top Right ', 'wp-counter-up' ),
+            'fadeInBottomLeft'  => __( 'Fade In Bottom Left ', 'wp-counter-up' ),
+            'fadeInBottomRight' => __( 'Fade In Bottom Right ', 'wp-counter-up' ),
+            'flip'              => __( 'Flip', 'wp-counter-up' ),
+            'flipInX'           => __( 'Flip InX', 'wp-counter-up' ),
+            'lightSpeedInRight' => __( 'Light Speed In Right', 'wp-counter-up' ),
+            'lightSpeedInLeft'  => __( 'Light Speed In Left', 'wp-counter-up' ),
+            'rotateIn'          => __( 'Rotate In', 'wp-counter-up' ),
+            'rotateInDownLeft'  => __( 'Rotate In Down Left', 'wp-counter-up' ),
+            'rotateInDownRight' => __( 'Rotate In Down Right', 'wp-counter-up' ),
+            'rotateInUpLeft'    => __( 'Rotate In Up Left', 'wp-counter-up' ),
+            'rotateInUpRight'   => __( 'Rotate In Up Right', 'wp-counter-up' ),
+            'hinge'             => __( 'Hinge', 'wp-counter-up' ),
+            'jackInTheBox'      => __( 'Jack In TheBox', 'wp-counter-up' ),
+            'rollIn'            => __( 'Roll In', 'wp-counter-up' ),
+            'zoomIn'            => __( 'Zoom In', 'wp-counter-up' ),
+            'zoomInDown'        => __( 'Zoom In Down', 'wp-counter-up' ),
+            'zoomInLeft'        => __( 'Zoom In Left', 'wp-counter-up' ),
+            'zoomInRight'       => __( 'Zoom In Right', 'wp-counter-up' ),
+            'zoomInUp'          => __( 'Zoom In Up', 'wp-counter-up' ),
+            'slideInDown'       => __( 'Slide In Down', 'wp-counter-up' ),
+            'slideInLeft'       => __( 'Slide In Left', 'wp-counter-up' ),
+            'slideInRight'      => __( 'Slide In Right', 'wp-counter-up' ),
+            'slideInUp'         => __( 'Slide In Up', 'wp-counter-up' ),
         )
     )
 );
 
 $this->meta_form->select(
     array(
-        'label'     => __( 'Floating Style', $this->plugin_name ),
-        'desc'      => __( 'Select hover effect for showcase item', $this->plugin_name ),
+        'label'     => __( 'Floating Style', 'wp-counter-up' ),
+        'desc'      => __( 'Select hover effect for showcase item', 'wp-counter-up' ),
         'name'      => 'post_meta_lgx_counter_generator[lgx_item_floating]',
         'id'        => 'lgx_item_floating',
         'status'  => LGX_WCU_PLUGIN_META_FIELD_PRO,
         'default'   => 'none',
         'options'   => array(
-            'none' => __( 'None', $this->plugin_name ),    
-            'sm' => __( 'Small', $this->plugin_name ),
-            'lg' => __( 'Large', $this->plugin_name ),
+            'none' => __( 'None', 'wp-counter-up' ),    
+            'sm' => __( 'Small', 'wp-counter-up' ),
+            'lg' => __( 'Large', 'wp-counter-up' ),
         )
     )
 );
@@ -122,7 +122,7 @@ $this->meta_form->select(
 /********************************************************************************/
 $this->meta_form->header_spacer(
     array(
-        'label'     => __( 'Item Title & Description Settings', $this->plugin_name ),
+        'label'     => __( 'Item Title & Description Settings', 'wp-counter-up' ),
     )
 );
 /********************************************************************************/
@@ -137,10 +137,10 @@ $this->meta_form->buy_pro(
 
 $this->meta_form->switch(
     array(
-        'label' => __( 'Enable Item Title', $this->plugin_name ),
-        'desc' => __( 'Show Title in your showcase.', $this->plugin_name ),
-        'yes_label' => __( 'Show', $this->plugin_name ),
-        'no_label' => __( 'Hide', $this->plugin_name ),
+        'label' => __( 'Enable Item Title', 'wp-counter-up' ),
+        'desc' => __( 'Show Title in your showcase.', 'wp-counter-up' ),
+        'yes_label' => __( 'Show', 'wp-counter-up' ),
+        'no_label' => __( 'Hide', 'wp-counter-up' ),
         'name' => 'post_meta_lgx_counter_generator[lgx_item_title_en]',
         'id' => 'lgx_item_title_en',
         'default' => 'yes'
@@ -151,27 +151,27 @@ $this->meta_form->switch(
 
 $this->meta_form->textTypo(
     array(
-        'label'     => __( 'Item Title', $this->plugin_name ),
-        'desc'      => __( 'Set Typography for Item Title.', $this->plugin_name ),
+        'label'     => __( 'Item Title', 'wp-counter-up' ),
+        'desc'      => __( 'Set Typography for Item Title.', 'wp-counter-up' ),
         'name'      => 'post_meta_lgx_counter_generator[lgx_text_type_item_title]',
         'id'        => 'lgx_text_type_item_title',
         
 
         // Color
-        'label_color'     => __( 'Font Color', $this->plugin_name ),
+        'label_color'     => __( 'Font Color', 'wp-counter-up' ),
         'name_color'      => 'post_meta_lgx_counter_generator[lgx_item_title_color]',
         'id_color'        => 'lgx_item_title_color',
         'default_color'   => '#111111',
 
          // Size
-        'label_size'     => __( 'Font Size', $this->plugin_name ),
+        'label_size'     => __( 'Font Size', 'wp-counter-up' ),
         'name_size'      => 'post_meta_lgx_counter_generator[lgx_item_title_font_size]',
         'id_size'        => 'lgx_item_title_font_size',
         'default_size'   => '18px',
         'status_size'    => LGX_WCU_PLUGIN_META_FIELD_PRO,
 
         //Weight
-        'label_weight'     => __( 'Font Weight', $this->plugin_name ),
+        'label_weight'     => __( 'Font Weight', 'wp-counter-up' ),
         'name_weight'      => 'post_meta_lgx_counter_generator[lgx_item_title_font_weight]',
         'id_weight'        => 'lgx_item_title_font_weight',
         'default_weight'   => '600',
@@ -183,18 +183,18 @@ $this->meta_form->textTypo(
 
 $this->meta_form->textMulti(
     array(
-        'label'     => __( 'Title Margin', $this->plugin_name ),
-        'desc'      => __( 'Set top & bottom margin for item title.', $this->plugin_name ),
+        'label'     => __( 'Title Margin', 'wp-counter-up' ),
+        'desc'      => __( 'Set top & bottom margin for item title.', 'wp-counter-up' ),
         'name'      => 'post_meta_lgx_counter_generator[lgx_text_type_item_title]',
         'id'        => 'lgx_text_type_item_title',
 
-        'label_1'     => __( 'Top', $this->plugin_name ),
+        'label_1'     => __( 'Top', 'wp-counter-up' ),
         'name_1'      => 'post_meta_lgx_counter_generator[lgx_item_top_margin_title]',
         'id_1'        => 'lgx_item_top_margin_title',
         'status_1'    => LGX_WCU_PLUGIN_META_FIELD_PRO,
         'default_1'   => '5px',
 
-        'label_2'     => __( 'Bottom', $this->plugin_name ),
+        'label_2'     => __( 'Bottom', 'wp-counter-up' ),
         'name_2'      => 'post_meta_lgx_counter_generator[lgx_item_bottom_margin_title]',
         'id_2'        => 'lgx_item_bottom_margin_title',
         'status_2'  => LGX_WCU_PLUGIN_META_FIELD_PRO,
@@ -206,10 +206,10 @@ $this->meta_form->textMulti(
 
 $this->meta_form->switch(
     array(
-        'label' => __( 'Enable Description', $this->plugin_name ),
-        'yes_label' => __( 'Show', $this->plugin_name ),
-        'no_label' => __( 'Hide', $this->plugin_name ),
-        'desc' => __( 'Show Description in your showcase.', $this->plugin_name ),
+        'label' => __( 'Enable Description', 'wp-counter-up' ),
+        'yes_label' => __( 'Show', 'wp-counter-up' ),
+        'no_label' => __( 'Hide', 'wp-counter-up' ),
+        'desc' => __( 'Show Description in your showcase.', 'wp-counter-up' ),
         'name' => 'post_meta_lgx_counter_generator[lgx_item_desc_en]',
         'id' => 'lgx_item_desc_en',
         'status'  => LGX_WCU_PLUGIN_META_FIELD_PRO,
@@ -220,27 +220,27 @@ $this->meta_form->switch(
 
 $this->meta_form->textTypo(
     array(
-        'label'     => __( 'Item Description', $this->plugin_name ),
-        'desc'      => __( 'Set Typography for Item Title.', $this->plugin_name ),
+        'label'     => __( 'Item Description', 'wp-counter-up' ),
+        'desc'      => __( 'Set Typography for Item Title.', 'wp-counter-up' ),
         'name'      => 'post_meta_lgx_counter_generator[lgx_text_type_item_desc]',
         'id'        => 'lgx_text_type_item_desc',
         
 
         // Color
-        'label_color'     => __( 'Font Color', $this->plugin_name ),
+        'label_color'     => __( 'Font Color', 'wp-counter-up' ),
         'name_color'      => 'post_meta_lgx_counter_generator[lgx_item_desc_color]',
         'id_color'        => 'lgx_item_desc_color',
         'default_color'   => '#555555',
 
          // Size
-        'label_size'     => __( 'Font Size', $this->plugin_name ),
+        'label_size'     => __( 'Font Size', 'wp-counter-up' ),
         'name_size'      => 'post_meta_lgx_counter_generator[lgx_item_desc_font_size]',
         'id_size'        => 'lgx_item_desc_font_size',
         'default_size'   => '14px',
         'status_size'    => LGX_WCU_PLUGIN_META_FIELD_PRO,
 
         //Weight
-        'label_weight'     => __( 'Font Weight', $this->plugin_name ),
+        'label_weight'     => __( 'Font Weight', 'wp-counter-up' ),
         'name_weight'      => 'post_meta_lgx_counter_generator[lgx_item_desc_font_weight]',
         'id_weight'        => 'lgx_item_desc_font_weight',
         'default_weight'   => '400',
@@ -252,18 +252,18 @@ $this->meta_form->textTypo(
 
 $this->meta_form->textMulti(
     array(
-        'label'     => __( 'Item Description Margin', $this->plugin_name ),
-        'desc'      => __( 'Set top & bottom margin for item Description.', $this->plugin_name ),
+        'label'     => __( 'Item Description Margin', 'wp-counter-up' ),
+        'desc'      => __( 'Set top & bottom margin for item Description.', 'wp-counter-up' ),
         'name'      => 'post_meta_lgx_counter_generator[lgx_multi_text_desc_margin]',
         'id'        => 'lgx_multi_text_desc_margin',
 
-        'label_1'     => __( 'Top Margin', $this->plugin_name ),
+        'label_1'     => __( 'Top Margin', 'wp-counter-up' ),
         'name_1'      => 'post_meta_lgx_counter_generator[lgx_item_top_margin_desc]',
         'id_1'        => 'lgx_item_top_margin_desc',
         'status_1'    => LGX_WCU_PLUGIN_META_FIELD_PRO,
         'default_1'   => '0px',
 
-        'label_2'     => __( 'Bottom Margin', $this->plugin_name ),
+        'label_2'     => __( 'Bottom Margin', 'wp-counter-up' ),
         'name_2'      => 'post_meta_lgx_counter_generator[lgx_item_bottom_margin_desc]',
         'id_2'        => 'lgx_item_bottom_margin_desc',
         'status_2'  => LGX_WCU_PLUGIN_META_FIELD_PRO,
@@ -274,7 +274,7 @@ $this->meta_form->textMulti(
 /********************************************************************************/
 $this->meta_form->header_spacer(
     array(
-        'label'     => __( 'Counter Value Settings', $this->plugin_name ),
+        'label'     => __( 'Counter Value Settings', 'wp-counter-up' ),
     )
 );
 /********************************************************************************/
@@ -283,27 +283,27 @@ $this->meta_form->header_spacer(
 
 $this->meta_form->textTypo(
     array(
-        'label'     => __( 'Counter Value', $this->plugin_name ),
-        'desc'      => __( 'Set Typography for Item Counter Value.', $this->plugin_name ),
+        'label'     => __( 'Counter Value', 'wp-counter-up' ),
+        'desc'      => __( 'Set Typography for Item Counter Value.', 'wp-counter-up' ),
         'name'      => 'post_meta_lgx_counter_generator[lgx_text_type_item_value]',
         'id'        => 'lgx_text_type_item_value',
         
 
         // Color
-        'label_color'     => __( 'Font Color', $this->plugin_name ),
+        'label_color'     => __( 'Font Color', 'wp-counter-up' ),
         'name_color'      => 'post_meta_lgx_counter_generator[lgx_item_value_color]',
         'id_color'        => 'lgx_item_value_color',
         'default_color'   => '#111111',
 
          // Size
-        'label_size'     => __( 'Font Size', $this->plugin_name ),
+        'label_size'     => __( 'Font Size', 'wp-counter-up' ),
         'name_size'      => 'post_meta_lgx_counter_generator[lgx_item_value_font_size]',
         'id_size'        => 'lgx_item_value_font_size',
         'default_size'   => '16px',
         'status_size'    => LGX_WCU_PLUGIN_META_FIELD_PRO,
 
         //Weight
-        'label_weight'     => __( 'Font Weight', $this->plugin_name ),
+        'label_weight'     => __( 'Font Weight', 'wp-counter-up' ),
         'name_weight'      => 'post_meta_lgx_counter_generator[lgx_item_value_font_weight]',
         'id_weight'        => 'lgx_item_value_font_weight',
         'default_weight'   => '600',
@@ -313,18 +313,18 @@ $this->meta_form->textTypo(
 
 $this->meta_form->textMulti(
     array(
-        'label'     => __( 'Counter Value Margin', $this->plugin_name ),
-        'desc'      => __( 'Set top & bottom margin for item counter Value.', $this->plugin_name ),
+        'label'     => __( 'Counter Value Margin', 'wp-counter-up' ),
+        'desc'      => __( 'Set top & bottom margin for item counter Value.', 'wp-counter-up' ),
         'name'      => 'post_meta_lgx_counter_generator[lgx_text_type_item_value_margin]',
         'id'        => 'lgx_text_type_item_value_margin',
 
-        'label_1'     => __( 'Top', $this->plugin_name ),
+        'label_1'     => __( 'Top', 'wp-counter-up' ),
         'name_1'      => 'post_meta_lgx_counter_generator[lgx_item_top_margin_value]',
         'id_1'        => 'lgx_item_top_margin_value',
         'status_1'    => LGX_WCU_PLUGIN_META_FIELD_PRO,
         'default_1'   => '0px',
 
-        'label_2'     => __( 'Bottom', $this->plugin_name ),
+        'label_2'     => __( 'Bottom', 'wp-counter-up' ),
         'name_2'      => 'post_meta_lgx_counter_generator[lgx_item_bottom_margin_value]',
         'id_2'        => 'lgx_item_bottom_margin_value',
         'status_2'  => LGX_WCU_PLUGIN_META_FIELD_PRO,
@@ -334,18 +334,18 @@ $this->meta_form->textMulti(
 
 $this->meta_form->textMulti(
     array(
-        'label'     => __( 'Counter Value Dimension', $this->plugin_name ),
-        'desc'      => __( 'Set top & bottom margin for item counter Value. <br> <span style="color: #e31919">Note: If you enable border, this dimension  will be mandatory.</span>', $this->plugin_name ),
+        'label'     => __( 'Counter Value Dimension', 'wp-counter-up' ),
+        'desc'      => __( 'Set top & bottom margin for item counter Value. <br> <span style="color: #e31919">Note: If you enable border, this dimension  will be mandatory.</span>', 'wp-counter-up' ),
         'name'      => 'post_meta_lgx_counter_generator[lgx_text_type_item_value_dimension]',
         'id'        => 'dimension',
 
-        'label_1'     => __( 'Width', $this->plugin_name ),
+        'label_1'     => __( 'Width', 'wp-counter-up' ),
         'name_1'      => 'post_meta_lgx_counter_generator[lgx_value_width]',
         'id_1'        => 'lgx_value_width',
         'status_1'    => LGX_WCU_PLUGIN_META_FIELD_PRO,
         'default_1'   => 'auto',
 
-        'label_2'     => __( 'Height', $this->plugin_name ),
+        'label_2'     => __( 'Height', 'wp-counter-up' ),
         'name_2'      => 'post_meta_lgx_counter_generator[lgx_value_height]',
         'id_2'        => 'lgx_value_height',
         'status_2'  => LGX_WCU_PLUGIN_META_FIELD_PRO,
@@ -357,10 +357,10 @@ $this->meta_form->textMulti(
 
 $this->meta_form->switch(
     array(
-        'yes_label' => __( 'Enabled', $this->plugin_name ),
-        'no_label' => __( 'Disabled', $this->plugin_name ),
-        'label'     => __( 'Counter Value Border', $this->plugin_name ),
-        'desc'      => __( 'Enable Border for Counter Value.', $this->plugin_name ),
+        'yes_label' => __( 'Enabled', 'wp-counter-up' ),
+        'no_label' => __( 'Disabled', 'wp-counter-up' ),
+        'label'     => __( 'Counter Value Border', 'wp-counter-up' ),
+        'desc'      => __( 'Enable Border for Counter Value.', 'wp-counter-up' ),
         'name'      => 'post_meta_lgx_counter_generator[lgx_value_border_color_en]',
         'id'        => 'lgx_value_border_color_en',
         'default'   => 'no'
@@ -369,30 +369,30 @@ $this->meta_form->switch(
 
 $this->meta_form->borderTypo(
     array(
-        'label'     => __( 'Counter Value Border', $this->plugin_name ),
-        'desc'      => __( 'Choose border style for icon image.', $this->plugin_name ),
+        'label'     => __( 'Counter Value Border', 'wp-counter-up' ),
+        'desc'      => __( 'Choose border style for icon image.', 'wp-counter-up' ),
         'name'      => 'post_meta_lgx_counter_generator[lgx_value_border_color_group]',
         'id'        => 'lgx_value_border_color_group',
 
-        'label_color'     => __( 'Color', $this->plugin_name ),
+        'label_color'     => __( 'Color', 'wp-counter-up' ),
         'name_color'      => 'post_meta_lgx_counter_generator[lgx_value_border_color]',
         'id_color'        => 'lgx_value_border_color',
         'default_color'   => '#F9f9f9',
 
-        'label_width'     => __( 'Width', $this->plugin_name ),
+        'label_width'     => __( 'Width', 'wp-counter-up' ),
         'name_width'      => 'post_meta_lgx_counter_generator[lgx_value_border_width]',
         'id_width'        => 'lgx_value_border_width',
         'status_width'    => LGX_WCU_PLUGIN_META_FIELD_PRO,
         'default_width'   => '1px',
 
-        'label_radius'     => __( 'Radius', $this->plugin_name ),
-        'desc_radius'      => __( 'Set Border Radius for showcase logo Image.', $this->plugin_name ),
+        'label_radius'     => __( 'Radius', 'wp-counter-up' ),
+        'desc_radius'      => __( 'Set Border Radius for showcase logo Image.', 'wp-counter-up' ),
         'name_radius'      => 'post_meta_lgx_counter_generator[lgx_value_border_radius]',
         'id_radius'        => 'lgx_value_border_radius',
         'status_radius'    => LGX_WCU_PLUGIN_META_FIELD_PRO,
         'default_radius'   => '100px',
 
-        'label_hColor'     => __( 'Hover Color', $this->plugin_name ),
+        'label_hColor'     => __( 'Hover Color', 'wp-counter-up' ),
         'name_hColor'      => 'post_meta_lgx_counter_generator[lgx_value_border_color_hover]',
         'id_hColor'        => 'lgx_value_border_color_hover',
         'status_hColor'    => LGX_WCU_PLUGIN_META_FIELD_PRO,
@@ -403,17 +403,17 @@ $this->meta_form->borderTypo(
 /********************************************************************************/
 $this->meta_form->header_spacer(
     array(
-        'label'     => __( 'Icon Image Settings', $this->plugin_name ),
+        'label'     => __( 'Icon Image Settings', 'wp-counter-up' ),
     )
 );
 /********************************************************************************/
 
 $this->meta_form->switch(
     array(
-        'label' => __( 'Enable Icon', $this->plugin_name ),
-        'yes_label' => __( 'Show', $this->plugin_name ),
-        'no_label' => __( 'Hide', $this->plugin_name ),
-        'desc' => __( 'Show item icon in your showcase.', $this->plugin_name ),
+        'label' => __( 'Enable Icon', 'wp-counter-up' ),
+        'yes_label' => __( 'Show', 'wp-counter-up' ),
+        'no_label' => __( 'Hide', 'wp-counter-up' ),
+        'desc' => __( 'Show item icon in your showcase.', 'wp-counter-up' ),
         'name' => 'post_meta_lgx_counter_generator[lgx_item_icon_en]',
         'id' => 'lgx_item_icon_en',
         'status'  => LGX_WCU_PLUGIN_META_FIELD_PRO,
@@ -423,8 +423,8 @@ $this->meta_form->switch(
 
 $this->meta_form->text(
     array(
-        'label'     => __( 'Icon Padding', $this->plugin_name ),
-        'desc'      => __( 'Add padding of the icon image. Default: 0px . You can add your suitable unit. E.g. 10px or 1rem.', $this->plugin_name ),
+        'label'     => __( 'Icon Padding', 'wp-counter-up' ),
+        'desc'      => __( 'Add padding of the icon image. Default: 0px . You can add your suitable unit. E.g. 10px or 1rem.', 'wp-counter-up' ),
         'name'      => 'post_meta_lgx_counter_generator[lgx_icon_padding]',
         'id'        => 'lgx_icon_padding',
         'status'  => LGX_WCU_PLUGIN_META_FIELD_PRO,
@@ -436,10 +436,10 @@ $this->meta_form->text(
 
 $this->meta_form->switch(
     array(
-        'label'     => __( 'Icon Background Color', $this->plugin_name ),
-        'yes_label' => __( 'Enabled', $this->plugin_name ),
-        'no_label' => __( 'Disabled', $this->plugin_name ),
-        'desc'      => __( 'Enable Background Color for all icon image.', $this->plugin_name ),
+        'label'     => __( 'Icon Background Color', 'wp-counter-up' ),
+        'yes_label' => __( 'Enabled', 'wp-counter-up' ),
+        'no_label' => __( 'Disabled', 'wp-counter-up' ),
+        'desc'      => __( 'Enable Background Color for all icon image.', 'wp-counter-up' ),
         'name'      => 'post_meta_lgx_counter_generator[lgx_icon_bg_color_en]',
         'id'        => 'lgx_icon_bg_color_en',
         'status'  => LGX_WCU_PLUGIN_META_FIELD_PRO,
@@ -450,18 +450,18 @@ $this->meta_form->switch(
 
 $this->meta_form->bgColorTypo(
     array(
-        'label'     => __( 'Icon Image Background', $this->plugin_name ),
-        'desc'      => __( 'Please select item background color.', $this->plugin_name ),
+        'label'     => __( 'Icon Image Background', 'wp-counter-up' ),
+        'desc'      => __( 'Please select item background color.', 'wp-counter-up' ),
         'name'      => 'post_meta_lgx_counter_generator[lgx_icon_bg_typo]',
         'id'        => 'lgx_icon_bg_typo',
 
-        'label_color'     => __( 'BG Color', $this->plugin_name ),
+        'label_color'     => __( 'BG Color', 'wp-counter-up' ),
         'name_color'      => 'post_meta_lgx_counter_generator[lgx_icon_bg_color]',
         'id_color'        => 'lgx_icon_bg_color',
         'status_color'    => LGX_WCU_PLUGIN_META_FIELD_PRO,
         'default_color'   => '#f1f1f1',
 
-        'label_hColor'     => __( 'Hover BG Color', $this->plugin_name ),
+        'label_hColor'     => __( 'Hover BG Color', 'wp-counter-up' ),
         'name_hColor'      => 'post_meta_lgx_counter_generator[lgx_icon_bg_color_hover]',
         'id_hColor'        => 'lgx_icon_bg_color_hover',
         'status_hColor'    => LGX_WCU_PLUGIN_META_FIELD_PRO,
@@ -473,10 +473,10 @@ $this->meta_form->bgColorTypo(
 
 $this->meta_form->switch(
     array(
-        'yes_label' => __( 'Enabled', $this->plugin_name ),
-        'no_label' => __( 'Disabled', $this->plugin_name ),
-        'label'     => __( 'Icon Border', $this->plugin_name ),
-        'desc'      => __( 'Enable Border for all Icon Image.', $this->plugin_name ),
+        'yes_label' => __( 'Enabled', 'wp-counter-up' ),
+        'no_label' => __( 'Disabled', 'wp-counter-up' ),
+        'label'     => __( 'Icon Border', 'wp-counter-up' ),
+        'desc'      => __( 'Enable Border for all Icon Image.', 'wp-counter-up' ),
         'name'      => 'post_meta_lgx_counter_generator[lgx_img_border_color_en]',
         'id'        => 'lgx_img_border_color_en',
         'default'   => 'no'
@@ -485,30 +485,30 @@ $this->meta_form->switch(
 
 $this->meta_form->borderTypo(
     array(
-        'label'     => __( 'Icon Border', $this->plugin_name ),
-        'desc'      => __( 'Choose border style for icon image.', $this->plugin_name ),
+        'label'     => __( 'Icon Border', 'wp-counter-up' ),
+        'desc'      => __( 'Choose border style for icon image.', 'wp-counter-up' ),
         'name'      => 'post_meta_lgx_counter_generator[lgx_img_border_color_group]',
         'id'        => 'lgx_img_border_color_group',
 
-        'label_color'     => __( 'Color', $this->plugin_name ),
+        'label_color'     => __( 'Color', 'wp-counter-up' ),
         'name_color'      => 'post_meta_lgx_counter_generator[lgx_img_border_color]',
         'id_color'        => 'lgx_img_border_color',
         'default_color'   => '#FF5151',
 
-        'label_width'     => __( 'Width', $this->plugin_name ),
+        'label_width'     => __( 'Width', 'wp-counter-up' ),
         'name_width'      => 'post_meta_lgx_counter_generator[lgx_img_border_width]',
         'id_width'        => 'lgx_img_border_width',
         'status_width'    => LGX_WCU_PLUGIN_META_FIELD_PRO,
         'default_width'   => '1px',
 
-        'label_radius'     => __( 'Radius', $this->plugin_name ),
-        'desc_radius'      => __( 'Set Border Radius for showcase logo Image.', $this->plugin_name ),
+        'label_radius'     => __( 'Radius', 'wp-counter-up' ),
+        'desc_radius'      => __( 'Set Border Radius for showcase logo Image.', 'wp-counter-up' ),
         'name_radius'      => 'post_meta_lgx_counter_generator[lgx_img_border_radius]',
         'id_radius'        => 'lgx_img_border_radius',
         'status_radius'    => LGX_WCU_PLUGIN_META_FIELD_PRO,
         'default_radius'   => '4px',
 
-        'label_hColor'     => __( 'Hover Color', $this->plugin_name ),
+        'label_hColor'     => __( 'Hover Color', 'wp-counter-up' ),
         'name_hColor'      => 'post_meta_lgx_counter_generator[lgx_img_border_color_hover]',
         'id_hColor'        => 'lgx_img_border_color_hover',
         'status_hColor'    => LGX_WCU_PLUGIN_META_FIELD_PRO,
@@ -520,8 +520,8 @@ $this->meta_form->borderTypo(
 
 $this->meta_form->group2SelectText(
     array(
-        'label'       => __( 'Icon Height', $this->plugin_name ),
-        'desc'        => __( 'Set Height of the icon image. Default: 100% . You can add your desired height with suitable unit. E.g. 100px or 10rem.', $this->plugin_name ),
+        'label'       => __( 'Icon Height', 'wp-counter-up' ),
+        'desc'        => __( 'Set Height of the icon image. Default: 100% . You can add your desired height with suitable unit. E.g. 100px or 10rem.', 'wp-counter-up' ),
         'id'          => 'lgx_item_icon_dimension_height',
         'name'        => 'post_meta_lgx_counter_generator[lgx_item_icon_dimension_height]',
         'status'  => LGX_WCU_PLUGIN_META_FIELD_PRO,
@@ -531,9 +531,9 @@ $this->meta_form->group2SelectText(
         'id_select'   => 'lgx_item_icon_property_height',
         'default_select'   => 'max-height',
         'options_select'   => array(
-            'max-height' => __( 'Max Height', $this->plugin_name ),
-            'height'   => __( 'Height', $this->plugin_name ),
-            'min-height' => __( 'Min Height', $this->plugin_name )
+            'max-height' => __( 'Max Height', 'wp-counter-up' ),
+            'height'   => __( 'Height', 'wp-counter-up' ),
+            'min-height' => __( 'Min Height', 'wp-counter-up' )
         ),
 
         'label_text' => 'Value',
@@ -545,8 +545,8 @@ $this->meta_form->group2SelectText(
 
 $this->meta_form->group2SelectText(
     array(
-        'label'       => __( 'Icon Width', $this->plugin_name ),
-        'desc'        => __( 'Set Width of the icon image. Default: 100% . You can add your desired Width with suitable unit. E.g. 100px or 10rem.', $this->plugin_name ),
+        'label'       => __( 'Icon Width', 'wp-counter-up' ),
+        'desc'        => __( 'Set Width of the icon image. Default: 100% . You can add your desired Width with suitable unit. E.g. 100px or 10rem.', 'wp-counter-up' ),
         'id'          => 'lgx_item_icon_dimension_width',
         'name'        => 'post_meta_lgx_counter_generator[lgx_item_icon_dimension_width]',
         'status'  => LGX_WCU_PLUGIN_META_FIELD_PRO,
@@ -556,9 +556,9 @@ $this->meta_form->group2SelectText(
         'id_select'   => 'lgx_item_icon_property_width',
         'default_select'   => 'max-width',
         'options_select'   => array(
-            'max-width' => __( 'Max Width', $this->plugin_name ),
-            'width'   => __( 'Width', $this->plugin_name ),
-            'min-width' => __( 'Min Width', $this->plugin_name )
+            'max-width' => __( 'Max Width', 'wp-counter-up' ),
+            'width'   => __( 'Width', 'wp-counter-up' ),
+            'min-width' => __( 'Min Width', 'wp-counter-up' )
         ),
 
         'label_text' => 'Value',
@@ -572,7 +572,7 @@ $this->meta_form->group2SelectText(
 /********************************************************************************/
 $this->meta_form->header_spacer(
     array(
-        'label'     => __( 'Single Item Settings', $this->plugin_name ),
+        'label'     => __( 'Single Item Settings', 'wp-counter-up' ),
     )
 );
 /********************************************************************************/
@@ -585,16 +585,16 @@ $this->meta_form->buy_pro(
 
 $this->meta_form->select(
     array(
-        'label'     => __( 'Item Info Align', $this->plugin_name ),
-        'desc'      => __( 'Set Item Title and description Alignment.', $this->plugin_name ),
+        'label'     => __( 'Item Info Align', 'wp-counter-up' ),
+        'desc'      => __( 'Set Item Title and description Alignment.', 'wp-counter-up' ),
         'name'      => 'post_meta_lgx_counter_generator[lgx_item_info_align]',
         'id'        => 'lgx_item_info_align',
         'status'  => LGX_WCU_PLUGIN_META_FIELD_PRO,
         'default'   => 'center',
         'options'   => array(
-            'center' => __( 'Center', $this->plugin_name ),
-            'left' => __( 'Left', $this->plugin_name ),
-            'right' => __( 'Right', $this->plugin_name )
+            'center' => __( 'Center', 'wp-counter-up' ),
+            'left' => __( 'Left', 'wp-counter-up' ),
+            'right' => __( 'Right', 'wp-counter-up' )
         )
     )
 );
@@ -602,8 +602,8 @@ $this->meta_form->select(
 
 $this->meta_form->text(
     array(
-        'label'     => __( 'Item Margin', $this->plugin_name ),
-        'desc'      => __( 'Set single item margin with suitable unit. Also, you can use the shorthand margin property.', $this->plugin_name ),
+        'label'     => __( 'Item Margin', 'wp-counter-up' ),
+        'desc'      => __( 'Set single item margin with suitable unit. Also, you can use the shorthand margin property.', 'wp-counter-up' ),
         'name'      => 'post_meta_lgx_counter_generator[lgx_item_margin]',
         'id'        => 'lgx_item_margin',
         'default'   => '0px'
@@ -613,8 +613,8 @@ $this->meta_form->text(
 
 $this->meta_form->text(
     array(
-        'label'     => __( 'Item padding', $this->plugin_name ),
-        'desc'      => __( 'Set single item padding with suitable unit. Also, you can use the shorthand padding property.', $this->plugin_name ),
+        'label'     => __( 'Item padding', 'wp-counter-up' ),
+        'desc'      => __( 'Set single item padding with suitable unit. Also, you can use the shorthand padding property.', 'wp-counter-up' ),
         'name'      => 'post_meta_lgx_counter_generator[lgx_item_padding]',
         'id'        => 'lgx_item_padding',
         'status'    => LGX_WCU_PLUGIN_META_FIELD_PRO,
@@ -625,10 +625,10 @@ $this->meta_form->text(
 
 $this->meta_form->switch(
     array(
-        'label'     => __( 'Item Border', $this->plugin_name ),
-        'yes_label' => __( 'Enabled', $this->plugin_name ),
-        'no_label' => __( 'Disabled', $this->plugin_name ),
-        'desc'      => __( 'Enable Border for all item.', $this->plugin_name ),
+        'label'     => __( 'Item Border', 'wp-counter-up' ),
+        'yes_label' => __( 'Enabled', 'wp-counter-up' ),
+        'no_label' => __( 'Disabled', 'wp-counter-up' ),
+        'desc'      => __( 'Enable Border for all item.', 'wp-counter-up' ),
         'name'      => 'post_meta_lgx_counter_generator[lgx_border_color_en]',
         'id'        => 'lgx_border_color_en',
         'status'  => LGX_WCU_PLUGIN_META_FIELD_PRO,
@@ -639,31 +639,31 @@ $this->meta_form->switch(
 
 $this->meta_form->borderTypo(
     array(
-        'label'     => __( 'Item Border', $this->plugin_name ),
-        'desc'      => __( 'Choose border style for icon image.', $this->plugin_name ),
+        'label'     => __( 'Item Border', 'wp-counter-up' ),
+        'desc'      => __( 'Choose border style for icon image.', 'wp-counter-up' ),
         'name'      => 'post_meta_lgx_counter_generator[lgx_item_border_color_group]',
         'id'        => 'lgx_item_border_color_group',
         
 
-        'label_color'     => __( 'Color', $this->plugin_name ),
+        'label_color'     => __( 'Color', 'wp-counter-up' ),
         'name_color'      => 'post_meta_lgx_counter_generator[lgx_item_border_color]',
         'id_color'        => 'lgx_item_border_color',
         'default_color'   => '#FF5151',
 
-        'label_width'     => __( 'Width', $this->plugin_name ),
+        'label_width'     => __( 'Width', 'wp-counter-up' ),
         'name_width'      => 'post_meta_lgx_counter_generator[lgx_item_border_width]',
         'id_width'        => 'lgx_item_border_width',
         'status_width'    => LGX_WCU_PLUGIN_META_FIELD_PRO,
         'default_width'   => '1px',
 
-        'label_radius'     => __( 'Radius', $this->plugin_name ),
-        'desc_radius'      => __( 'Set Border Radius for showcase logo Image.', $this->plugin_name ),
+        'label_radius'     => __( 'Radius', 'wp-counter-up' ),
+        'desc_radius'      => __( 'Set Border Radius for showcase logo Image.', 'wp-counter-up' ),
         'name_radius'      => 'post_meta_lgx_counter_generator[lgx_item_border_radius]',
         'id_radius'        => 'lgx_item_border_radius',
         'status_radius'    => LGX_WCU_PLUGIN_META_FIELD_PRO,
         'default_radius'   => '4px',
 
-        'label_hColor'     => __( 'Hover Color', $this->plugin_name ),
+        'label_hColor'     => __( 'Hover Color', 'wp-counter-up' ),
         'name_hColor'      => 'post_meta_lgx_counter_generator[lgx_item_border_color_hover]',
         'id_hColor'        => 'lgx_item_border_color_hover',
         'status_hColor'    => LGX_WCU_PLUGIN_META_FIELD_PRO,
@@ -675,10 +675,10 @@ $this->meta_form->borderTypo(
 
 $this->meta_form->switch(
     array(
-        'label'     => __( 'Item Background Color', $this->plugin_name ),
-        'yes_label' => __( 'Enabled', $this->plugin_name ),
-        'no_label' => __( 'Disabled', $this->plugin_name ),
-        'desc'      => __( 'Enable Background Color for all item.', $this->plugin_name ),
+        'label'     => __( 'Item Background Color', 'wp-counter-up' ),
+        'yes_label' => __( 'Enabled', 'wp-counter-up' ),
+        'no_label' => __( 'Disabled', 'wp-counter-up' ),
+        'desc'      => __( 'Enable Background Color for all item.', 'wp-counter-up' ),
         'name'      => 'post_meta_lgx_counter_generator[lgx_item_bg_color_en]',
         'id'        => 'lgx_item_bg_color_en',
         'status'  => LGX_WCU_PLUGIN_META_FIELD_PRO,
@@ -689,18 +689,18 @@ $this->meta_form->switch(
 
 $this->meta_form->bgColorTypo(
     array(
-        'label'     => __( 'Item Background', $this->plugin_name ),
-        'desc'      => __( 'Please select item background color.', $this->plugin_name ),
+        'label'     => __( 'Item Background', 'wp-counter-up' ),
+        'desc'      => __( 'Please select item background color.', 'wp-counter-up' ),
         'name'      => 'post_meta_lgx_counter_generator[lgx_item_bg_typo]',
         'id'        => 'lgx_item_bg_typo',
 
-        'label_color'     => __( 'BG Color', $this->plugin_name ),
+        'label_color'     => __( 'BG Color', 'wp-counter-up' ),
         'name_color'      => 'post_meta_lgx_counter_generator[lgx_item_bg_color]',
         'id_color'        => 'lgx_item_bg_color',
         'status_color'  => LGX_WCU_PLUGIN_META_FIELD_PRO,
         'default_color'   => '#f1f1f1',
 
-        'label_hColor'     => __( 'Hover BG Color', $this->plugin_name ),
+        'label_hColor'     => __( 'Hover BG Color', 'wp-counter-up' ),
         'name_hColor'      => 'post_meta_lgx_counter_generator[lgx_item_bg_color_hover]',
         'id_hColor'        => 'lgx_item_bg_color_hover',
         'status_hColor'  => LGX_WCU_PLUGIN_META_FIELD_PRO,

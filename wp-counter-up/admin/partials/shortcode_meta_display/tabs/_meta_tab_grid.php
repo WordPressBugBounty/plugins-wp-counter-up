@@ -14,8 +14,8 @@ $this->meta_form->buy_pro(
 
 $this->meta_form->text(
     array(
-        'label'     => __( 'Column Gap', $this->plugin_name ),
-        'desc'      => __( 'Sets the gap between the columns. Add your desired value with suitable unit. E.g. 15px or 1.5rem', $this->plugin_name ),
+        'label'     => __( 'Column Gap', 'wp-counter-up' ),
+        'desc'      => __( 'Sets the gap between the columns. Add your desired value with suitable unit. E.g. 15px or 1.5rem', 'wp-counter-up' ),
         'name'      => 'post_meta_lgx_counter_generator[lgx_grid_column_gap]',
         'id'        => 'lgx_grid_column_gap',
         'status'  => LGX_WCU_PLUGIN_META_FIELD_PRO,
@@ -25,8 +25,8 @@ $this->meta_form->text(
 
 $this->meta_form->text(
     array(
-        'label'     => __( 'Row Gap', $this->plugin_name ),
-        'desc'      => __( 'Sets the gap between the row. Add your desired value with suitable unit. E.g. 15px or 1.5rem', $this->plugin_name ),
+        'label'     => __( 'Row Gap', 'wp-counter-up' ),
+        'desc'      => __( 'Sets the gap between the row. Add your desired value with suitable unit. E.g. 15px or 1.5rem', 'wp-counter-up' ),
         'name'      => 'post_meta_lgx_counter_generator[lgx_grid_row_gap]',
         'id'        => 'lgx_grid_row_gap',
         'status'  => LGX_WCU_PLUGIN_META_FIELD_PRO,

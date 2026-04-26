@@ -1,15 +1,21 @@
+<?php
+if (! defined('ABSPATH')) {
+    exit;
+}
+?>
+
 <div class="lgx_logo_slider_card_header">
 
     <div class="lgx_logo_slider_logo_container">
-        <img src="<?php echo plugin_dir_url(__DIR__) . '../img/lgx-logo-metabox.png'; ?>" alt="Logo Showcase" style="width: 185px;">
+        <img src="<?php echo esc_url(plugin_dir_url(__DIR__) . '../img/lgx-logo-metabox.png'); ?>" alt="Logo Showcase" style="width: 185px;">
     </div>
 
     <div class="lgx_logo_slider_support_container">
-        <a href="<?php echo esc_url('https://logichunt.com/support'); ?>" target="_blank">
+        <a href="<?php echo esc_url('https://logichunt.com/support'); ?>" target="_blank" rel="noopener noreferrer">
             <i class="far fa-envelope-open"></i>
             <i class="lgxicon lgx-icon-envelope-open-o"></i>
             <span>
-                <?php _e('Support','wp-counter-up'); ?>
+                <?php esc_html_e('Support','wp-counter-up'); ?>
             </span>
         </a>
     </div>
