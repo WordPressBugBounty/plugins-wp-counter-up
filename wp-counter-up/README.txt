@@ -3,8 +3,8 @@ Contributors: LogicHunt, themearth, vaskarjewel
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=vaspal%2ekt%40gmail%2ecom&lc=US&item_name=LogicHunt&item_number=wp&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donate_LG%2egif%3aNonHosted
 Tags: number counter, counter, animated numbers, counter up, stats counter, milestone counter, animated counter, wordpress counter
 Requires at least: 5.5
-Tested up to: 6.9
-Stable tag: 4.0.0
+Tested up to: 7.0
+Stable tag: 4.1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 

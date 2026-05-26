@@ -10,7 +10,7 @@
  * Plugin Name:       WP Counter Up
  * Plugin URI:        http://logichunt.com/product/wordpress-counter-up
  * Description:       Add smooth and responsive animated counters to your WordPress site to highlight stats and milestones using simple shortcodes or widgets.
- * Version:           4.0.0
+ * Version:           4.1.0
  * Author:            LogicHunt Inc.
  * Author URI:        http://logichunt.com
  * License:           GPL-2.0+
@@ -32,7 +32,7 @@ if ( ! defined( 'WPINC' ) ) {
 define( 'WP_COUNTER_UP', '4.0.0' );
 
 //plugin definition specific constants
-defined( 'LGX_WCU_PLUGIN_VERSION' )        or define( 'LGX_WCU_PLUGIN_VERSION', '4.0.0' );
+defined( 'LGX_WCU_PLUGIN_VERSION' )        or define( 'LGX_WCU_PLUGIN_VERSION', '4.1.0' );
 defined( 'LGX_WCU_WP_PLUGIN' )             or define( 'LGX_WCU_WP_PLUGIN', 'wp-counter-up' );
 defined( 'LGX_WCU_PLUGIN_BASE' )           or define( 'LGX_WCU_PLUGIN_BASE', plugin_basename( __FILE__ ) );
 defined( 'LGX_WCU_PLUGIN_ROOT_PATH' )      or define( 'LGX_WCU_PLUGIN_ROOT_PATH', plugin_dir_path( __FILE__ ) );
