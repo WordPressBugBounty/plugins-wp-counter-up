@@ -45,7 +45,7 @@ class ClassWPCounterUpMetaForm
         $output_safe = '<tr>';
         $output_safe .= '<th scope="row">';
         $output_safe .= '<h4 class="lgx_app_meta_label"><label for="' . $args['id'] . '">' . $args['label'] . '</label></h4>';
-        $output_safe .= '<p class="lgx_input_desc lgx_app_meta_desc">' . $args['desc'] . '</p>';
+        $output_safe .= '<p class="lgx_input_desc lgx_app_meta_desc lgx_app_meta_desc2">' . $args['desc'] . '</p>';
         $output_safe .= '</th>';
 
         $output_safe .= '<td>';
